@@ -7,7 +7,7 @@ import json
 try:
     from akamai.edgegrid import EdgeGridAuth, EdgeRc
 except ImportError:
-    print "Please install `edgegrid-python` using pip"
+    print("Please install `edgegrid-python` using pip")
 from os.path import expanduser
 from urlparse import urljoin
 
