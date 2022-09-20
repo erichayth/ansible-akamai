@@ -9,7 +9,7 @@ try:
 except ImportError:
     print("Please install `edgegrid-python` using pip")
 from os.path import expanduser
-from urlparse import urljoin
+from urllib.parse import urljoin
 
 DOCUMENTATION = ''' docs '''
 EXAMPLES = ''' examples '''
